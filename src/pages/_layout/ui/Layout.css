@@ -1,0 +1,23 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    flex-shrink: 0;
+}
+
+.main {
+    flex: 1;
+    min-width: 0;
+}
+
+.header {
+    width: 100%;
+}
+
+.content {
+    padding: 20px;
+}

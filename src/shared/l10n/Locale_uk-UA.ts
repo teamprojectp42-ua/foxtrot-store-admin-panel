@@ -1,5 +1,28 @@
-const Locale_ukUA:Record<string,string> = {
-    "": ""
+const Locale_ukUA: Record<string, string> = {
+    suffix: '_uk_UA',
+    languageButton: 'УКР',
+    search: 'Пошук',
+    searchButton: 'Знайти',
+    dashboard: 'Панель керування',
+    products: 'Товари',
+    categories: 'Категорії',
+    orders: 'Замовлення',
+    users: 'Користувачі',
+    logout: 'Вийти',
+    productsTitle: 'Товари',
+    productsDescription: 'Керуйте товарами магазину: додавайте, редагуйте та видаляйте.',
+    addProduct: 'Додати товар',
+    searchProduct: 'Пошук за назвою...',
+    productId: 'ID',
+    productImage: 'Зображення',
+    productName: 'Назва',
+    productCategory: 'Категорія',
+    productPrice: 'Ціна, грн',
+    productStock: 'У наявності',
+    productActions: 'Дії',
+    edit: 'Редагувати',
+    delete: 'Видалити',
+    totalProducts: 'Усього товарів',
 }
 
 export default Locale_ukUA;

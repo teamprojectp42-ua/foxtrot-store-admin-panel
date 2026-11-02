@@ -1,0 +1,110 @@
+
+.products-page {
+    width: 100%;
+    color: #172b4d;
+}
+
+.products-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.products-description {
+    color: #718096;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.products-page .btn-warning {
+    background-color: #ff5a00;
+    border-color: #ff5a00;
+    font-weight: 500;
+}
+
+.products-page .btn-warning:hover {
+    background-color: #e64f00;
+    border-color: #e64f00;
+}
+
+.products-search .input-group-text {
+    border-right: none;
+    color: #718096;
+}
+
+.products-search .form-control {
+    border-left: none;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.products-search .form-control:focus {
+    box-shadow: none;
+    border-color: #dee2e6;
+}
+
+.products-table-wrapper {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background-color: white;
+    overflow-x: auto;
+}
+
+.products-page .table {
+    min-width: 850px;
+    color: #172b4d;
+    font-size: 13px;
+}
+
+.products-page .table thead th {
+    background-color: #f4f7fa;
+    color: #526581;
+    font-weight: 600;
+    padding: 15px;
+    white-space: nowrap;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.products-page .table tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #edf0f4;
+}
+
+.products-page .table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.products-page .table tbody tr:hover {
+    background-color: #fafcff;
+}
+
+.product-image-placeholder {
+    width: 55px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f7fa;
+    border-radius: 6px;
+    color: #94a3b8;
+    font-size: 22px;
+}
+
+.products-page .btn-outline-primary {
+    border-color: #dce4ee;
+    color: #526581;
+}
+
+.products-page .btn-outline-primary:hover {
+    background-color: #edf4ff;
+    color: #0d6efd;
+}
+
+.products-page .btn-outline-danger {
+    border-color: #ffe0e0;
+    color: #ef4444;
+}
+
+.products-page .btn-outline-danger:hover {
+    background-color: #fff1f1;
+}

@@ -1,5 +1,28 @@
-const Locale_ukUA:Record<string,string> = {
-    "": ""
+const Locale_enUS: Record<string, string> = {
+    suffix: '_en_US',
+    languageButton: 'ENG',
+    search: 'Search',
+    searchButton: 'Find',
+    dashboard: 'Dashboard',
+    products: 'Products',
+    categories: 'Categories',
+    orders: 'Orders',
+    users: 'Users',
+    logout: 'Log out',
+    productsTitle: 'Products',
+    productsDescription: 'Manage store products: add, edit and delete.',
+    addProduct: 'Add product',
+    searchProduct: 'Search by name...',
+    productId: 'ID',
+    productImage: 'Image',
+    productName: 'Name',
+    productCategory: 'Category',
+    productPrice: 'Price, UAH',
+    productStock: 'In stock',
+    productActions: 'Actions',
+    edit: 'Edit',
+    delete: 'Delete',
+    totalProducts: 'Total products',
 }
 
-export default Locale_ukUA;
+export default Locale_enUS;

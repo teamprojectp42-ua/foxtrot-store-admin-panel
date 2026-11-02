@@ -1,6 +1,10 @@
 import './ui/Header.css';
-
+import { useContext } from 'react';
+import AppContext from '../../features/_context/model/AppContext';
+import Locale_ukUA from '../../shared/L10n/Locale_uk-UA';
+import Locale_enUS from '../../shared/L10n/Locale_en-US';
 export default function Header() {
+    const { locale, switchLocale } = useContext(AppContext);
     return <>
         <nav className="navbar bg-body-tertiary border-bottom">
             <div className="container-fluid">
@@ -8,14 +12,14 @@ export default function Header() {
                     <input
                         className="form-control me-2"
                         type="search"
-                        placeholder="Поиск"
+                        placeholder={locale.search}
                     />
 
                     <button
                         className="btn btn-outline-primary"
                         type="submit"
                     >
-                        Найти
+                        {locale.searchButton}
                     </button>
                 </form>
                 <div className="d-flex align-items-center gap-3">
@@ -24,8 +28,19 @@ export default function Header() {
                         <i className="bi bi-moon"></i>
                     </button>
 
-                    <button className="btn btn-outline-secondary">
+                    <button
+                        className="btn btn-outline-secondary"
+                        onClick={() =>
+                            switchLocale(
+                                locale.suffix === '_uk_UA'
+                                    ? Locale_enUS
+                                    : Locale_ukUA
+                            )
+                        }
+                    >
                         <i className="bi bi-globe2"></i>
+                        {' '}
+                        {locale.languageButton}
                     </button>
 
                     <button className="btn btn-outline-secondary position-relative">
